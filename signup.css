@@ -1,0 +1,167 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+padding:0;
+background: url(bg.jpg);
+-webkit-background-size:cover;
+background-size: cover;
+font-family:"Trebuchet MS";
+}
+
+.fix{
+clear:both;
+overflow:hidden;
+}
+
+.section-padding{
+padding: 50px 0;
+}
+
+.wrapper{
+width:1170px;
+margin: 0 auto;
+}
+
+header{
+overflow:hidden;
+height:10vh;
+}
+
+.nav-area{
+background:rgba(0,0,0,0.6);
+height:60px;
+position:absolute;
+width:100%;
+}
+
+.logo{margin:10px 50px;
+height:60px;
+float:left;
+color:#fff;
+font-size:35px;
+text-transform:uppercase;
+}
+
+.menu-area{
+float:right;
+list-style:none;
+margin:20px;
+}
+
+.menu-area li{
+display:inline-block;
+margin: 0 5px;
+}
+
+.menu-area li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 10px;
+letter-spacing: 2px;
+}
+
+.menu-area li.active a{
+color:#DDA0DD ;
+}
+
+.menu-area li a:hover{
+color:#DDA0DD;
+}
+
+.wrapper{
+width:400px;
+height:500px;
+color: #000;
+background: #fff;
+top:25%;
+left: 40%;
+padding: 60px 30px;
+position: absolute;
+transform:translate(-50%,-50%)
+box-sizing:border-box;
+box-shadow: 8px 8px 50px #000;
+}
+
+h1{
+margin:0;
+padding:0;
+font-weight:bold;
+font-size:50px;
+margin-bottom:0;
+font-family:"Gabriola";
+}
+
+.wrapper input{
+width:100%;
+margin-bottom: 20px;
+}
+
+.wrapper input[type=email], .wrapper input[type=password]{
+border:none;
+border-bottom:1px solid #ddd;
+background: transparent;
+outline: none;
+height: 30px;
+font-size: 16px;
+opacity:1;
+color: #ccc;
+}
+
+.wrapper input[type=submit]{
+border:none;
+outline:none;
+height:40px;
+background:#DDA0DD;
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+}
+
+.wrapper input[type=submit]:hover{
+cursor:pointer;}
+
+.wrapper a{
+font-size:14px;
+text-decoration: none;
+opacity:0.8;}
+
+.wrapper a:hover{
+color:#DDA0DD;
+opacity:1;
+}
+
+.bottom-text input{
+width:10%;
+float: left;
+}
+
+.bottom-text a{
+float: center;
+}
+
+#overlay-area{
+position: absolute;
+background-color: rgba(0,0,0,0.3);
+z-index: -5;
+height: 100%;
+width: 100%;
+top:0;
+bottom:0;
+}
+.btn{
+background:#DDA0DD;
+float: center;
+border:none;
+color:#fff;
+padding:10px 30px;
+font-size:20px;
+text-transform:uppercase;
+text-decoration: none;
+border-radius:25px;
+display:inline-block;
+}
+
+
